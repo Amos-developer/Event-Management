@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-content{
+    background-color: #eee;
+    height: 85vh;
+}
+
+.category-name{
+    background-color: #d3cfcf;
+    padding: 10px;
+    width: 200px;
+    margin: 3px;
+}
+
+.col-category{
+    position: relative;
+    height: 100%;
+}
+
+.event-category{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    height: auto;
+}
+
+form{
+    margin: 60px 60px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: auto;
+}
+
+input[type="text"]
+, input[type="password"]{
+    width: 300px;
+    margin: 10px;
+}
+
+.input-group-addon {
+    background-color: #d3cfcf;
+    text-align: center;
+    height: 6.3vh;
+    width: 10%;
+    margin-top: 10px;
+}
+
+/* Footer Style */
+.event-footer {
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: #10107B;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: -30px;
+}
+
+
+.rows-footers,
+.cols {
+    margin-top: 2rem;
+}
+
+.rows-footers {
+    border-bottom: 2px solid #ffffff;
+}
+
+
+.btn-submit {
+    padding: 10px 20px;
+}
+
+
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 412px){
+form{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.input-group-addon{
+    display: none;
+}
+
+.col-category{
+    position: relative;
+    height: auto;
+}
+
+.event-category{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+.category-name {
+    padding: 10px;
+    width: 300px;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+.col-category{
+    position: relative;
+    height: auto;
+}
+
+.event-category{
+    position: absolute;
+    top: 20%;
+}
+.category-name{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 280px){
+.col-category{
+    display: none;
+}
+
+.login-content{
+    position: relative;
+}
+
+.login-content form{
+position: absolute;
+width: 90%;
+margin-left: 0px; 
+}
+}
+
+@media screen and (max-width: 540px) {
+    .col-category{display: none;}
+}
+
+@media screen and (max-width: 912px) {
+.col-category{
+    position: absolute;
+    top: 50%;
+}
+}
+
+@media screen and (max-width: 390px) {
+   form{
+    width: 100%;
+    margin-left: 0px;
+   }
+   
+   .input-group-addon {
+       height: 4.5vh;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+    .input-group-addon {
+    height: 6.5vh;
+    }
+}
+

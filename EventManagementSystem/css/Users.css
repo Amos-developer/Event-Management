@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 100;
+    background-color: #eee;
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 1600px;
+}
+
+.content {
+    position: absolute;
+    background-color: #fff;
+    top: 5%;
+    width: 1000px;
+    height: auto;
+}
+
+ .btn {
+     float: right;
+     padding: 20px 40px;
+ }
+
+ .listhead,
+ .btn {
+     display: inline-block;
+ }
+
+ #message_body{
+    display: none;
+ }
+
+ #myAlert{
+    display: none;
+ }
+
+ .hidden{
+    display: none;
+ }
+
+ table{
+    overflow: scroll;
+ }
+
+ /* Responsive Design */
+ @media screen and (max-width: 360px) {
+.wrapper{
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    top: 2%;
+    left: 0;
+    margin: 2px;
+}
+
+.heading button{
+    display: inline-block;
+}
+
+
+.table-head p{
+    display: inline-block;
+}
+
+}
+
+ @media screen and (max-width: 600px) {
+.wrapper{
+    position: relative;
+    top: 10%;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.info{
+    position: relative;
+}
+
+#UserTable{
+    display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+.wrapper{
+    position: relative;
+    height: 1500px;
+}
+
+}
+
+@media screen and (max-width: 412px) {
+.wrapper{
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 280px) {
+#btnadd{
+    display: inline-block;
+    padding: 1rem;    
+}
+
+.table-head p {
+    display: none;
+}
+  
+}
+
+@media screen and (max-width: 540px) {
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+}
+
+@media screen and (max-width: 912px) {
+.wrapper{
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    height: 2500px;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.wrapper{
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    height: 2100px;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+}
+
+@media screen and (max-width: 820px) {
+.content{
+    position: absolute;
+    left: 0;
+}
+
+@media screen and (max-width: 820px) {
+#UserTable {
+    display: inline-block;
+}
+}
+
+}
+

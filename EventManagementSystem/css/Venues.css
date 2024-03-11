@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepic {
+    position: relative;
+    text-align: center;
+    background-color: #eee;
+    width: 100%;
+    height: 90vh;
+}
+
+.slideshow {
+    position: relative;
+    margin-top: 0px;
+    background-color: #eee;
+    height: auto;
+}
+
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.rows-content {
+    width: 100%;
+    height: auto;
+    margin-left: 2px;
+}
+
+.row-cards {
+    height: auto;
+    width: 100%;
+    margin: 2px;
+}
+
+.event-footer {
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: #10107B;
+    color: #fff;
+}
+
+.rows-footers,
+.cols {
+    margin-top: 2rem;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.rows-footers {
+    border-bottom: 2px solid #ffffff;
+}
+
+
+/* Filter Events */
+.filter-events{
+    position: absolute;
+    left: 7%;
+    bottom: -10%;
+    background-color: #10107B;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 20vh;
+}
+
+.btnsearch{
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+}
+
+.opts{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+input[type="date"]{
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+input[type="date"]:focus {
+    outline: none;
+}
+
+#selectlocation{
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+#selectEvent{
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.events_around{
+    margin-top: -42px;
+    font-style: italic;
+    font-size: 3rem;
+    color: #000;
+}
+
+/* Category and icon */
+.member_already, .signup_link{
+    color: red;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-location, .event-title{
+    display: inline-block;
+}
+
+.alert{
+    display: none;
+}
+
+@media screen and (max-width: 412px) {
+    .homepic{
+        height: 50vh;
+    }
+
+    .slideshow{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.booking_main{
+    background-color: #eee;
+    margin-top: 2px;
+    height: auto;
+}
+
+
+/* Event2 */
+.event {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 95%;
+    background-color: #d3cfcf;
+}
+.event .event-time {
+    height: 5vh;
+    margin-top: 70px;
+}
+
+.event .event-name {
+    height: 5vh;
+    margin-top: 70px;
+}
+
+.event .event-icon {
+    font-size: 2rem;
+    height: 5vh;
+    margin-top: 70px;
+}
+
+.btn2 {
+    height: 7vh;
+    margin-top: 60px;
+}
+
+.alert{
+    display: none;
+}
+
+@media screen and (max-width: 412px) {
+    .event-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 280px){
+   .location{
+    display: none;
+   }
+
+   .event-time{
+    display: none;
+   }
+
+   .btn2{
+    float: right;
+   }
+}
+

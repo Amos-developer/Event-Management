@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    background-color: #eee;
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 1100px;
+}
+
+.content {
+    position: absolute;
+    background-color: #fff;
+    top: 5%;
+    width: 1000px;
+    height: auto;
+}
+
+ .btn{
+    float: right;
+    padding: 20px 40px;
+} 
+
+.listhead, .btn{
+    display: inline-block;
+}
+
+.search{
+    float: right;
+}
+
+.filter-options, .search{
+    display: inline-block;
+}
+
+.info{
+    margin: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+input[type="search"]{
+    width: 100px;
+}
+
+input[type="search"], .btnreset {
+    margin: 2px;
+}
+
+input[type="search"]:focus{
+    outline: none;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        position: relative;
+        height: 100vh;
+    }
+
+    .content{
+        position: absolute;
+        top: 5%;
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .wrapper{
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .content{
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .info{
+        margin-left: 0px;
+        margin-top: 53px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .wrapper{
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .content{
+        position: absolute;
+        margin-right: 1px;
+        width: 100%;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .wrapper{
+        margin-left: 0px;
+        height: 100vh;
+    }
+
+    .content{
+        position: absolute;
+        top: 2%;
+        width: 96%;
+        height: auto;   
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+        position: relative;
+        width: 100%;    
+    }
+
+    .info{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+

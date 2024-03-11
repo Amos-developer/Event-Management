@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-container{
+    background-color: #eee;
+    height: 90vh;
+}
+
+.user-account{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.active1{
+    background-color: blue;
+}
+
+.myList a{
+    background-color: #d3cfcf;
+}
+
+.user-details{
+    border: 2px solid #d3cfcf;
+    margin-top: 20px;
+    height: 60vh;
+}
+
+.User{
+    margin-top: 30px;
+    overflow-x: auto;
+    overflow: auto;
+}
+
+table {
+    margin-top: 0;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
+.alert{
+    display: none;
+}
+
+
+@media screen and (max-width: 1280px){
+    .user-container{
+        position: relative;
+        height: 100vh;
+    }
+
+    .user-dashboard{
+        position: relative;
+    }
+
+    .user-account{
+        margin-left: 0;
+    }
+}

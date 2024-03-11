@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepic {
+    position: relative;
+    /* background-color: #eee; */
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+.homepic h1 {
+    text-transform: uppercase;
+}
+
+.event-footer {
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: #10107B;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.rows-footers {
+    border-bottom: 2px solid #ffffff;
+}
+
+.rows-footers,
+input[type="email"] {
+    padding: 10px 50px;
+}
+
+.rows-footers,
+input[type="email"]:focus {
+    outline: none;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+}
+
+.line {
+    color: #fff;
+    padding: 2rem;
+}
+
+.about_content{
+    margin-top: 0px;
+    border: 2px solid #F5F5F5;
+    text-align: center;
+    height: 70vh;
+    background-color: #eee;
+}
+
+@media screen and (max-width: 412px) {
+    .event-footer{
+        margin-bottom: 0;
+    }
+
+    .about_content{
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .homepic{
+        height: 50vh;
+        width: 100%;
+        background-image: url(../asserts/images/  );
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about_content{
+        height: auto;
+        margin-top: 0px;
+    }
+}
